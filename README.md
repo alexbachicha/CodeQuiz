@@ -57,6 +57,7 @@ After the final question is answered, the user is shown their score and is promp
 I found this project to be the hardest one yet. It was quite overwhelming and I found myself pushed for time most of the way. Before starting this project, I felt completely lost. I still feel a bit lost when it comes to the complexities of Javascript and the sheer amount of ways you can code your projects. 
 I used various resources to pull random bits and pieces together to form what I have now as my "The Office" themed Code Quiz.
 
+Update as of 6:22P 10/24/20. ERROR: I cannot get my screenshots to load in this readME.md file.
 
 ## Acknowledgements
 
