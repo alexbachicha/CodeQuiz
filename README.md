@@ -1,6 +1,6 @@
 # 04 Web APIs: Code Quiz
 
-Take[The Office Fan Quiz] here!(https://alexbachicha.github.io/CodeQuiz/)
+[The Office Fan Quiz!](https://alexbachicha.github.io/CodeQuiz/)
 
 ## Your Task
 
