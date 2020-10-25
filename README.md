@@ -42,15 +42,15 @@ The quiz asks the user a series of questions about the television show, The Offi
 
 To start the quiz, the user clicks the button that says "Start Quiz".
 
-![Home Screen](http://Users/bachicha/code/WebApiCodeQuiz/CodeQuiz/assets/ss1_welcome.png)
+![Home Screen](https:///Users/bachicha/code/WebApiCodeQuiz/CodeQuiz/assets/ss1_welcome.png)
 
 Once the quiz is started, the user is promted with a question and four answer choices. After choosing an answer, the quiz will notify the user whether their answer was correct. If it's not correct, 15 seconds are deducted from the current time. The next question is then loaded.
 
-![Example of Questions](http://Users/bachicha/code/WebApiCodeQuiz/CodeQuiz/assets/ss2_question.png)
+![Example of Questions](https:///Users/bachicha/code/WebApiCodeQuiz/CodeQuiz/assets/ss2_question.png)
 
 After the final question is answered, the user is shown their score and is prompted to enter their initials. When submit is pressed, the initials and score are saved to the local storage. This means even after the browser is refreshed, the scores and user initials will still be there.
 
-![Highscore Page](Http://Users/bachicha/code/WebApiCodeQuiz/CodeQuiz/assets/ss3_hs.png)
+![Highscore Page](https://Users/bachicha/code/WebApiCodeQuiz/CodeQuiz/assets/ss3_hs.png)
 
 
 ## Overall Project Experience
@@ -59,7 +59,8 @@ After the final question is answered, the user is shown their score and is promp
 I found this project to be the hardest one yet. It was quite overwhelming and I found myself pushed for time most of the way. Before starting this project, I felt completely lost. I still feel a bit lost when it comes to the complexities of Javascript and the sheer amount of ways you can code your projects. 
 I used various resources to pull random bits and pieces together to form what I have now as my "The Office" themed Code Quiz.
 
-Update as of 6:22P 10/24/20. ERROR: I cannot get my screenshots to load in this readME.md file.
+ERROR Update as of 6:22P 10/24/20. I cannot get my screenshots to load in this README.md file. I have tried multiple times and methods to get them to show and they just will not work for me. Still trying to troubleshoot here and there until submission deadline.
+
 
 ## Acknowledgements
 
