@@ -40,7 +40,16 @@ The quiz asks the user a series of questions about the television show, The Offi
 
 To start the quiz, the user clicks the button that says "Start Quiz".
 
-![ss1](CodeQuiz/assets/ss1_welcome.png)
+
+Once the quiz is started, the user is promted with a question and four answer choices. After choosing an answer, the quiz will notify the user whether their answer was correct. If it's not correct, 15 seconds are deducted from the current time. The next question is then loaded.
+
+
+After the final question is answered, the user is shown their score and is prompted to enter their initials. When submit is pressed, the initials and score are saved to the local storage. This means even after the browser is refreshed, the scores and user initials will still be there.
 
 
 
+## Overall Project Experience
+
+```
+I found this project to be the hardest one yet. It was quite overwhelming and I found myself pushed for time most of the way. Before starting this project, I felt completely lost. I still feel a bit lost when it comes to the complexities of Javascript and the sheer amount of ways you can code your projects. 
+I used various resources to pull random bits and pieces together to form what I have now as my "The Office" themed Code Quiz.
