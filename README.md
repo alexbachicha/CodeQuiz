@@ -40,15 +40,15 @@ The quiz asks the user a series of questions about the television show, The Offi
 
 To start the quiz, the user clicks the button that says "Start Quiz".
 
-![Home Screen](/Users/bachicha/code/WebApiCodeQuiz/CodeQuiz/assets/ss1_welcome.png)
+![Home Screen](http://Users/bachicha/code/WebApiCodeQuiz/CodeQuiz/assets/ss1_welcome.png)
 
 Once the quiz is started, the user is promted with a question and four answer choices. After choosing an answer, the quiz will notify the user whether their answer was correct. If it's not correct, 15 seconds are deducted from the current time. The next question is then loaded.
 
-![Example of Questions](/Users/bachicha/code/WebApiCodeQuiz/CodeQuiz/assets/ss2_question.png)
+![Example of Questions](http://Users/bachicha/code/WebApiCodeQuiz/CodeQuiz/assets/ss2_question.png)
 
 After the final question is answered, the user is shown their score and is prompted to enter their initials. When submit is pressed, the initials and score are saved to the local storage. This means even after the browser is refreshed, the scores and user initials will still be there.
 
-![Highscore Page](/Users/bachicha/code/WebApiCodeQuiz/CodeQuiz/assets/ss3_hs.png)
+![Highscore Page](Http://Users/bachicha/code/WebApiCodeQuiz/CodeQuiz/assets/ss3_hs.png)
 
 
 ## Overall Project Experience
