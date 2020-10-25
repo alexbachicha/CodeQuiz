@@ -35,7 +35,7 @@ THEN I can save my initials and score
 
 ## Instructions 
 
-```
+
 The quiz asks the user a series of questions about the television show, The Office. The user is given 75 seconds to start out with but each wrong answer results in a deduction of 15 seconds. The user's final score is the resulting number of seconds left on the timer after the last question is answerd.
 
 To start the quiz, the user clicks the button that says "Start Quiz".
@@ -50,6 +50,6 @@ After the final question is answered, the user is shown their score and is promp
 
 ## Overall Project Experience
 
-```
+
 I found this project to be the hardest one yet. It was quite overwhelming and I found myself pushed for time most of the way. Before starting this project, I felt completely lost. I still feel a bit lost when it comes to the complexities of Javascript and the sheer amount of ways you can code your projects. 
 I used various resources to pull random bits and pieces together to form what I have now as my "The Office" themed Code Quiz.
