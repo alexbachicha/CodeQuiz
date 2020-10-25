@@ -22,23 +22,20 @@ var questions = [
     },
 ];
 
-var score = 0;
-var questionIndex = 0;
-
 // start working code 
 // declared variables
+var score = 0;
+var questionIndex = 0;
 var currentTime = document.querySelector("#currentTime");
 var timer = document.querySelector("#startTime");
 var questionsDiv = document.querySelector("#questionsDiv");
 var wrapper = document.querySelector("#wrapper");
-
-// seconds left is 15 seconds per question:
 var secondsLeft = 76;
 var holdInterval = 0;
 var penalty = 10;
 var ulCreate = document.createElement("ul");
 
-// triggers timer 
+// event listener that triggers the timer to start
 timer.addEventListener("click", function () {
     if (holdInterval === 0) {
         holdInterval = setInterval(function () {
@@ -55,7 +52,7 @@ timer.addEventListener("click", function () {
     render(questionIndex);
 });
 
-// renders questions and choices to page: 
+// function that renders question to page
 function render(questionIndex) {
     // clears existing data 
     questionsDiv.innerHTML = "";
@@ -76,7 +73,7 @@ function render(questionIndex) {
         listItem.addEventListener("click", (compare));
     })
 }
-// event to compare answer with choices
+// function that compares answer with choices
 function compare(event) {
     var element = event.target;
 
@@ -95,7 +92,7 @@ function compare(event) {
         }
 
     }
-    // question index determines which question the user is on
+    // questionIndex determines which question the user is on
     questionIndex++;
 
     if (questionIndex >= questions.length) {
@@ -108,25 +105,24 @@ function compare(event) {
     questionsDiv.appendChild(createDiv);
 
 }
-// append last page
+// append the last page
 function allDone() {
     questionsDiv.innerHTML = "";
     currentTime.innerHTML = "";
 
-    // heading
+    // when finished qith quiz
     var createH1 = document.createElement("h1");
     createH1.setAttribute("id", "createH1");
     createH1.textContent = "All Done!"
 
     questionsDiv.appendChild(createH1);
 
-    // paragraph
     var createP = document.createElement("p");
     createP.setAttribute("id", "createP");
 
     questionsDiv.appendChild(createP);
 
-    // calculates time remaining and replaces it with score
+    // calculates remaining time and replaces it with final score
     if (secondsLeft >= 0) {
         var timeRemaining = secondsLeft;
         var createP2 = document.createElement("p");
@@ -136,14 +132,14 @@ function allDone() {
         questionsDiv.appendChild(createP2);
     }
 
-    // label
+    // entering user initials
     var createLabel = document.createElement("label");
     createLabel.setAttribute("id", "createLabel");
     createLabel.textContent = "Enter your initials: ";
 
     questionsDiv.appendChild(createLabel);
 
-    // input
+    // input for user initials
     var createInput = document.createElement("input");
     createInput.setAttribute("type", "text");
     createInput.setAttribute("id", "initials");
@@ -151,7 +147,7 @@ function allDone() {
 
     questionsDiv.appendChild(createInput);
 
-    // submit
+    // submitting user initials 
     var createSubmit = document.createElement("button");
     createSubmit.setAttribute("type", "submit");
     createSubmit.setAttribute("id", "Submit");
