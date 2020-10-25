@@ -36,5 +36,11 @@ THEN I can save my initials and score
 ## Instructions 
 
 ```
+The quiz asks the user a series of questions about the television show, The Office. The user is given 75 seconds to start out with but each wrong answer results in a deduction of 15 seconds. The user's final score is the resulting number of seconds left on the timer after the last question is answerd.
+
+To start the quiz, the user clicks the button that says "Start Quiz".
+
+![ss1](CodeQuiz/assets/ss1_welcome.png)
+
 
 
